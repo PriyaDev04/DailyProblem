@@ -10,4 +10,4 @@ let result = str
     })
     .join(" ");
 
-console.log(result);  // Output: "My NaMe Is PrIyA"
+console.log(result);  
