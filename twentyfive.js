@@ -19,4 +19,5 @@ function findDuplicates(arr) {
 
 console.log(findDuplicates([4, 3, 2, 7, 8, 2, 3, 1]));
 console.log(findDuplicates([1, 2, 3, 4, 5]));
-console.log(findDuplicates([5, 5, 5, 5]));            
+console.log(findDuplicates([5, 5, 5, 5]));
+
