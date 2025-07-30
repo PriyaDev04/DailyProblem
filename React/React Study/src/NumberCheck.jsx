@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import './style.css'
 
 
 function EvenOrOddChecker() {
@@ -43,6 +44,12 @@ function EvenOrOddChecker() {
                 {status && <div className="status">{status}</div>}
                 {result && <div className="result">{result}</div>}
             </div>
+
+            <div className="result-area">
+                {status && <div className="status">{status}</div>}
+                {result && <div className="result">{result}</div>}
+            </div>
+
         </div>
     );
 }
